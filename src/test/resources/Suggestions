@@ -1,0 +1,11 @@
+Suggestions:
+
+API Name: api/v1/users
+ 
+ 1. We can send some response in the response body when token is invalid or null.
+ 
+ API Name: api/v1/users/<phone>
+ 
+ 1. When user hit this api with a invalid phone number, response coe should be 400 or 404 instead of 200
+ 2. When user hit this api with a invalid phone number, we should not send a empty response body. We can send a meaningful error message.
+ 
