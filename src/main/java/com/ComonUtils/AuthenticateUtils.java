@@ -1,8 +1,6 @@
 package com.ComonUtils;
 
 import java.util.HashMap;
-
-import org.codehaus.jackson.map.ObjectMapper;
 import org.json.JSONException;
 import org.json.JSONObject;
 
